@@ -36,7 +36,6 @@ width: 25%;
 }
 
 nav {
-  float: left;
   width: 25%;
 }
 
@@ -67,13 +66,13 @@ h2{
   font-size: 2rem;
   letter-spacing: 2px;
 }
-/* all links color */
+/*Styling to different link states*/
 a{
   color: #AA3E25;
   outline: none;
 }
 a:visited{
-  color: #95280F;
+  color: black;;
 }
 
 a:focus{
@@ -95,16 +94,18 @@ ul{
     line-height: 20px;
     list-style-type: circle;
 }
+
+/*overall styling to nav*/
 nav ul {
     list-style-type: none;
-    margin:-20px 0px 0px 25px;
+    margin: 0;
     padding: 0;
-    width: 25%;
-    background-color: #E7E7E7;
-    position: fixed;
-    height:43.1%;
+    width: 200px;
+    background-color: #e7e7e7;
+      border: 1px solid #a66;
 }
 
+/* styling to links in nav*/
 nav li a {
     display: block;
     color: #black;
@@ -114,12 +115,8 @@ nav li a {
     text-align: center;
 }
 
-nav li a.active {
-    background-color: black;
-    color: #a66;
-}
-
-nav li a:hover:not(.active) {
+/* styling to links when hovered in nav*/
+nav li a:hover {
     background-color: #a66;
     color: white;
 }
