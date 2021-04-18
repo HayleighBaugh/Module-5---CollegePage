@@ -72,7 +72,7 @@ a{
   outline: none;
 }
 a:visited{
-  color: black;
+  color: #E15A40;
 }
 
 a:focus{
@@ -86,7 +86,7 @@ a:hover{
   text-decoration: none;
 }
 a:active{
-  text-shadow: 2px;
+  text-shadow: 3px black;;
 }
 
 /* makes bullets open circles*/
